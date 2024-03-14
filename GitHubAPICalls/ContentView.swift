@@ -42,7 +42,8 @@ struct ContentView: View {
             Profiles(name: "ghost"),
             Profiles(name: "daneden"),
             Profiles(name: "NeuralNine"),
-            Profiles(name: "swisskyrepo")
+            Profiles(name: "swisskyrepo"),
+            Profiles(name: "pslpeters")
         ]
     
     @AppStorage("selectedScheme") private var selectedProfile = 0
